@@ -1,0 +1,51 @@
+﻿  StreetMap.cpp
+C:\Users\razma\OneDrive\Desktop\skeleton\StreetMap.cpp(45): warning C4018: '<': signed/unsigned mismatch
+C:\Users\razma\OneDrive\Desktop\skeleton\ExpandableHashMap.h(143): error C2872: 'hash': ambiguous symbol
+  C:\Users\razma\OneDrive\Desktop\skeleton\StreetMap.cpp(9): note: could be 'unsigned int hash(const GeoCoord &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\type_traits(2003): note: or       'std::hash'
+  C:\Users\razma\OneDrive\Desktop\skeleton\ExpandableHashMap.h(141): note: while compiling class template member function 'unsigned int ExpandableHashMap<GeoCoord,std::vector<StreetSegment,std::allocator<_Ty>>>::getBucketNumber(const KeyType &) const'
+          with
+          [
+              _Ty=StreetSegment,
+              KeyType=GeoCoord
+          ]
+  C:\Users\razma\OneDrive\Desktop\skeleton\ExpandableHashMap.h(90): note: see reference to function template instantiation 'unsigned int ExpandableHashMap<GeoCoord,std::vector<StreetSegment,std::allocator<_Ty>>>::getBucketNumber(const KeyType &) const' being compiled
+          with
+          [
+              _Ty=StreetSegment,
+              KeyType=GeoCoord
+          ]
+  C:\Users\razma\OneDrive\Desktop\skeleton\ExpandableHashMap.h(56): note: while compiling class template member function 'ExpandableHashMap<GeoCoord,std::vector<StreetSegment,std::allocator<_Ty>>>::ExpandableHashMap(double)'
+          with
+          [
+              _Ty=StreetSegment
+          ]
+  C:\Users\razma\OneDrive\Desktop\skeleton\StreetMap.cpp(29): note: see reference to function template instantiation 'ExpandableHashMap<GeoCoord,std::vector<StreetSegment,std::allocator<_Ty>>>::ExpandableHashMap(double)' being compiled
+          with
+          [
+              _Ty=StreetSegment
+          ]
+  C:\Users\razma\OneDrive\Desktop\skeleton\StreetMap.cpp(24): note: see reference to class template instantiation 'ExpandableHashMap<GeoCoord,std::vector<StreetSegment,std::allocator<_Ty>>>' being compiled
+          with
+          [
+              _Ty=StreetSegment
+          ]
+C:\Users\razma\OneDrive\Desktop\skeleton\ExpandableHashMap.h(155): warning C4018: '<': signed/unsigned mismatch
+  C:\Users\razma\OneDrive\Desktop\skeleton\ExpandableHashMap.h(151): note: while compiling class template member function 'void ExpandableHashMap<GeoCoord,std::vector<StreetSegment,std::allocator<_Ty>>>::reHash(void)'
+          with
+          [
+              _Ty=StreetSegment
+          ]
+  C:\Users\razma\OneDrive\Desktop\skeleton\ExpandableHashMap.h(109): note: see reference to function template instantiation 'void ExpandableHashMap<GeoCoord,std::vector<StreetSegment,std::allocator<_Ty>>>::reHash(void)' being compiled
+          with
+          [
+              _Ty=StreetSegment
+          ]
+  main.cpp
+C:\Users\razma\OneDrive\Desktop\CS32_Project\Project4\Project4\Project4\ExpandableHashMap.h(155): warning C4018: '<': signed/unsigned mismatch
+  C:\Users\razma\OneDrive\Desktop\CS32_Project\Project4\Project4\Project4\ExpandableHashMap.h(151): note: while compiling class template member function 'void ExpandableHashMap<int,char>::reHash(void)'
+  C:\Users\razma\OneDrive\Desktop\CS32_Project\Project4\Project4\Project4\ExpandableHashMap.h(109): note: see reference to function template instantiation 'void ExpandableHashMap<int,char>::reHash(void)' being compiled
+  C:\Users\razma\OneDrive\Desktop\CS32_Project\Project4\Project4\Project4\ExpandableHashMap.h(56): note: while compiling class template member function 'ExpandableHashMap<int,char>::ExpandableHashMap(double)'
+  C:\Users\razma\OneDrive\Desktop\CS32_Project\Project4\Project4\Project4\main.cpp(9): note: see reference to function template instantiation 'ExpandableHashMap<int,char>::ExpandableHashMap(double)' being compiled
+  C:\Users\razma\OneDrive\Desktop\CS32_Project\Project4\Project4\Project4\main.cpp(9): note: see reference to class template instantiation 'ExpandableHashMap<int,char>' being compiled
+  Generating Code...
